@@ -13,6 +13,7 @@ pyjwt = "^0.4.2"
 rsa = "^3.4"
 requests = "^2.21"
 feedparser = "^6.0"
+jinja2 = "2.10.1"
 
 
 [build-system]

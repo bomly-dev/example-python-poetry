@@ -66,6 +66,25 @@ files = [
 ]
 
 [[package]]
+name = "jinja2"
+version = "2.10.1"
+description = "A small but fast and easy to use stand-alone template engine written in pure python."
+optional = false
+python-versions = "*"
+files = []
+
+[package.dependencies]
+MarkupSafe = ">=0.23"
+
+[[package]]
+name = "markupsafe"
+version = "3.0.3"
+description = "Safely add untrusted strings to HTML/XML markup."
+optional = false
+python-versions = ">=3.9"
+files = []
+
+[[package]]
 name = "pyasn1"
 version = "0.6.0"
 description = "Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)"
